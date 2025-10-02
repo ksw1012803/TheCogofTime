@@ -1,16 +1,18 @@
-## The cog of time
+# The cog of time
 
-Contents
+Upload Model fbx and update plz
+
+## Contents
 
 Stage 1 playerBoss & animations
 
 Stage 2  & animations
 
-Upload
+## Upload
 
 2025-10-01
 
-Latest update
+## Latest update
 
 2025-10-02
 

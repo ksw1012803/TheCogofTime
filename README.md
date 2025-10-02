@@ -4,9 +4,9 @@ Upload Model fbx and update plz
 
 ## Contents
 
-Stage 1 playerBoss & animations
+Stage 1 playerBoss & animations & weapon
 
-Stage 2  & animations
+Stage 2  & animations & weapon
 
 ## Upload
 

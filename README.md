@@ -1,11 +1,10 @@
-# The cog of time
+## The cog of time
 
-Project Start
-2025-09-10
+#Stage 2 Model & animations
 
-Project End
+Upload
 2025-10-02
 
-Latest Update
-2025-10-02
+Latest update
+2025-10-01
 

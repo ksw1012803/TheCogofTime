@@ -1,3 +1,3 @@
-# The cof of time
+# The cog of time
 
 preparing

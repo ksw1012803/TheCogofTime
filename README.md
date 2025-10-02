@@ -1,4 +1,4 @@
-# The cof of time
+# The cog of time
 
 Project Start
 2025-09-10

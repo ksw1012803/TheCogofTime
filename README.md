@@ -16,5 +16,5 @@ Stage 3 player & animation
 
 ## Latest update
 
-2025-10-02
+2025-10-07
 

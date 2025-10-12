@@ -8,7 +8,7 @@ Stage 1 playerBoss & animations & weapon
 
 Stage 2 playerBoss & animations & weapon
 
-Stage 3 player & animation
+Stage 3 playerBoss & animation
 
 ## Upload
 

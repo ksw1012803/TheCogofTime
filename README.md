@@ -18,5 +18,5 @@ basic monter & swarm monster
 
 ## Latest update
 
-2025-10-13
+2025-10-16
 

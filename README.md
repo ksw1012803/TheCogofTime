@@ -10,7 +10,7 @@ Stage 2 Main Character & Boss & animations & weapon
 
 Stage 3 Main Character & Boss & animations
 
-Basic monter & Swarm monster
+Basic monster & Swarm monster
 
 ## Upload
 

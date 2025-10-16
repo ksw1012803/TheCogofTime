@@ -94,6 +94,48 @@ public class CharacterMotor : MonoBehaviour
         }
     }
 
+    [Header("Climb Exit (BackHop)")]
+    public float exitTeleportDist = 0.75f; // X 눌렀을 때 즉시 뒤로 살짝 이동(벽에서 떼기)
+    public float exitBackHopForce = 6.0f;  // 뒤로 튕기는 힘(수평)
+    public float exitBackHopUpForce = 3.0f;  // 위로 살짝 들어주는 힘
+
+    [Header("Climb Re-enter")]
+    public float climbReenterBlock = 0.35f;   // X로 빠져나온 뒤, 이 시간 동안 자동 재진입 금지
+    [HideInInspector] public float nextClimbAllowedTime = 0f;
+
+    // 헬퍼
+    public bool CanAutoClimb() => Time.time >= nextClimbAllowedTime;
+
+    // (선택) 재진입 시 W 입력 요구할지 여부
+    public bool requireForwardInputToReenter = false;
+
+    // 플레이어를 벽에서 확실히 떼기(캡슐 기준 충돌해소 포함)
+    public void EnsureClearFromWall(Vector3 wallNormal)
+    {
+        // 1) 즉시 텔레포트로 일정 거리 떨어뜨림
+        Vector3 p = rb.position + wallNormal * exitTeleportDist;
+        rb.position = p;
+
+        // 2) 혹시 여전히 벽과 겹치면 조금 더 밀어냄(최대 3회)
+        if (capsule)
+        {
+            float r = capsule.radius * Mathf.Abs(transform.localScale.x);
+            float h = (capsule.height * Mathf.Abs(transform.localScale.y)) - 2f * r;
+            Vector3 c = capsule.transform.TransformPoint(capsule.center);
+            Vector3 top = c + Vector3.up * (h * 0.5f);
+            Vector3 bottom = c - Vector3.up * (h * 0.5f);
+
+            for (int i = 0; i < 3; i++)
+            {
+                var cols = Physics.OverlapCapsule(top, bottom, r, climbableMask, QueryTriggerInteraction.Ignore);
+                if (cols == null || cols.Length == 0) break;
+
+                // 간단히 wallNormal 방향으로 추가 보정
+                rb.position += wallNormal * 0.1f;
+            }
+        }
+    }
+
     // ===== ?? CLIMB SETTINGS & UTILITIES =====
     [Header("Climb Settings")]
     public LayerMask climbableMask;       // 등반 가능 벽 레이어
@@ -149,17 +191,24 @@ public class CharacterMotor : MonoBehaviour
 
     public void SnapToWall(Vector3 wallPoint, Vector3 wallNormal, bool lockY, float lockedY)
     {
-        // 기본 목표 위치
-        Vector3 targetPos = wallPoint + wallNormal * wallStickDistance;
+        // 현재 위치
+        Vector3 cur = rb.position;
 
-        // ★ 입력이 없을 때는 Y를 고정
-        if (lockY) targetPos.y = lockedY;
-        else targetPos.y = Mathf.Lerp(transform.position.y, targetPos.y, 0.6f);
+        // 1) 목표점: 벽 지점에서 wallNormal 방향으로 일정 거리만큼 떨어진 지점
+        Vector3 target = wallPoint + wallNormal * wallStickDistance;
 
-        Vector3 newPos = Vector3.Lerp(transform.position, targetPos, wallSnapSpeed * Time.fixedDeltaTime);
+        // 2) 수평(벽 노멀) 성분만 보정: Y는 만지지 않음
+        //    -> 카메라/물리 미세 오차가 있어도 수직으로 끌어올려지지 않습니다.
+        Vector3 curFlat = new Vector3(cur.x, 0f, cur.z);
+        Vector3 targetFlat = new Vector3(target.x, 0f, target.z);
+        Vector3 newFlat = Vector3.Lerp(curFlat, targetFlat, wallSnapSpeed * Time.fixedDeltaTime);
+
+        float newY = lockY ? lockedY : Mathf.Lerp(cur.y, target.y, 0f); // Y 보정 없음(=cur.y) 혹은 고정
+        Vector3 newPos = new Vector3(newFlat.x, newY, newFlat.z);
+
         rb.MovePosition(newPos);
 
-        // 벽을 바라보게 회전
+        // 3) 회전은 벽을 보도록만 보정(수직 회전은 관여 안 함)
         Quaternion look = Quaternion.LookRotation(-wallNormal, Vector3.up);
         rb.MoveRotation(Quaternion.Slerp(rb.rotation, look, 12f * Time.fixedDeltaTime));
     }

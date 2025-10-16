@@ -19,7 +19,9 @@ public class State_Grounded_RB : State
 
     public override void HandleInput()
     {
-        if (m.ProbeWall(out _, out _, out _))
+        bool wantForward = !m.requireForwardInputToReenter || m.input.move.y > 0.1f;
+
+        if (m.CanAutoClimb() && wantForward && m.ProbeWall(out _, out _, out _))
         {
             m.fsm.ChangeState(m.stClimb);
             return;

@@ -30,6 +30,8 @@ public class State_Climb_RB : State
         m.SnapToWall(wallPoint, wallNormal, lockY: true, lockedY: anchorY);
     }
 
+    static float DeadzoneSigned(float v, float dz) => (Mathf.Abs(v) < dz) ? 0f : v;
+
     public override void HandleInput()
     {
         // 수동 이탈(X)
@@ -48,9 +50,9 @@ public class State_Climb_RB : State
 
         // 입력 읽기
         Vector2 mv = m.input.move;
-        bool moveUp = Mathf.Abs(mv.y) > INPUT_DEADZONE;
-        bool moveSide = Mathf.Abs(mv.x) > INPUT_DEADZONE;
-        bool hasInput = moveUp || moveSide;
+        float upInput = DeadzoneSigned(mv.y, INPUT_DEADZONE);   // W=+, S=−
+        float sideInput = DeadzoneSigned(mv.x, INPUT_DEADZONE);   // D=+, A=−
+        bool hasInput = (upInput != 0f) || (sideInput != 0f);
 
         if (!hasInput)
         {
@@ -61,39 +63,30 @@ public class State_Climb_RB : State
             return;
         }
 
-        // ===== 등반 이동 (입력이 있을 때만) =====
-        float upSpeed = moveUp ? mv.y * m.climbUpSpeed : 0f;
-        float sideSpeed = moveSide ? mv.x * m.climbSideSpeed : 0f;
+        // === 등반 이동 ===
+        float upSpeed = upInput * m.climbUpSpeed;   // +위 / −아래
+        float sideSpeed = sideInput * m.climbSideSpeed; // +오른쪽 / −왼쪽
 
         Vector3 lateral = Vector3.Cross(Vector3.up, wallNormal).normalized;
         Vector3 climbVel = Vector3.up * upSpeed + lateral * sideSpeed;
 
-        // 이동 적용
         Vector3 next = m.rb.position + climbVel * Time.fixedDeltaTime;
         m.rb.MovePosition(next);
 
-        // ★ 세로 입력 있을 때만 앵커Y 갱신
-        if (moveUp)
-            anchorY = next.y;
+        // ★ 위/아래 어느 방향이든, 실제 이동 높이를 앵커로 갱신
+        if (upInput != 0f) anchorY = next.y;
 
-        // 거리/회전 유지 (Y는 입력 여부에 따라)
-        m.SnapToWall(wallPoint, wallNormal, lockY: !moveUp, lockedY: anchorY);
+        // ★ 스냅 시 Y를 '현재 이동 높이'에 고정해, S(아래) 입력이 스냅에 의해 취소되지 않게 함
+        m.SnapToWall(wallPoint, wallNormal, lockY: true, lockedY: next.y);
 
-        // 맨틀(턱 넘기): 'W'로 올릴 때만 허용
-        if (mv.y > INPUT_DEADZONE && m.ProbeLedgeTop(wallNormal, out Vector3 top))
+        // 맨틀: 위(+Y) 입력일 때만
+        if (upInput > 0f && m.ProbeLedgeTop(wallNormal, out Vector3 top))
         {
-            if (top.y > m.rb.position.y + 0.4f)
-            {
-                Mantle(top, wallNormal);
-                return;
-            }
+            if (top.y > m.rb.position.y + 0.4f) { Mantle(top, wallNormal); return; }
         }
 
         // (선택) 점프로 이탈
-        if (m.input.jumpPressed)
-        {
-            ExitToAir(backHop: true);
-        }
+        if (m.input.jumpPressed) ExitToAir(backHop: true);
     }
 
     public override void FixedTick()
@@ -122,12 +115,22 @@ public class State_Climb_RB : State
 
     void ExitToAir(bool backHop = false)
     {
+        // 재진입 쿨다운 시작
+        m.nextClimbAllowedTime = Time.time + m.climbReenterBlock;
+
+        // 벽에서 즉시 떼기(ProbeWall 범위 밖으로 이동)
+        m.EnsureClearFromWall(wallNormal);
+
+        // 속도 초기화 후, 충분히 큰 반발력 추가
+        m.rb.linearVelocity = Vector3.zero;
+
         if (backHop)
         {
-            Vector3 push = wallNormal * 3.5f + Vector3.up * 2.0f;
-            m.rb.linearVelocity = Vector3.zero;
-            m.rb.AddForce(push, ForceMode.VelocityChange);
+            Vector3 impulse = wallNormal * m.exitBackHopForce + Vector3.up * m.exitBackHopUpForce;
+            m.rb.AddForce(impulse, ForceMode.VelocityChange);
         }
+
+        // 공중 상태로 전환
         m.fsm.ChangeState(m.stAirborne);
     }
 }

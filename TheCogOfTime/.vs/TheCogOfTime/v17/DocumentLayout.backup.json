@@ -1,46 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\characterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\characterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08DCBC94-E0AE-5C1A-74B5-A64EBDDD016F}|Assembly-CSharp-Editor.csproj|c:\\users\\pc\\documents\\github\\thecogoftime\\thecogoftime\\assets\\flooded_grounds\\postprocessing\\editor\\propertydrawers\\mindrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DCBC94-E0AE-5C1A-74B5-A64EBDDD016F}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\flooded_grounds\\postprocessing\\editor\\propertydrawers\\mindrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\4_Scripts\\State_Airborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github\\thecogoftime\\thecogoftime\\assets\\flooded_grounds\\postprocessing\\runtime\\components\\motionblurcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\flooded_grounds\\postprocessing\\runtime\\components\\motionblurcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\state_airborne_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\state_airborne_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github\\thecogoftime\\thecogoftime\\assets\\4_scripts\\player_scripts\\charactermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\player_scripts\\charactermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\assets\\4_scripts\\statemachine_scripts\\state_airborne_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\statemachine_scripts\\state_airborne_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\charactermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\charactermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\assets\\4_scripts\\statemachine_scripts\\state_climb_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\statemachine_scripts\\state_climb_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\state_grounded_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\state_grounded_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\assets\\4_scripts\\statemachine_scripts\\state_grounded_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\statemachine_scripts\\state_grounded_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\4_Scripts\\PlayerMovementState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\assets\\4_scripts\\player_scripts\\characterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\player_scripts\\characterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\assets\\4_scripts\\tirdpersoncameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6D3240D-74A1-8014-35E2-82983194D7C5}|Assembly-CSharp.csproj|solutionrelative:assets\\4_scripts\\tirdpersoncameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\4_Scripts\\PlayerInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Grounded_RB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\4_Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne_RB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterMotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\TirdPersonCameraMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,128 +68,212 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\Flooded_Grounds\\PostProcessing\\Editor\\PropertyDrawers\\MinDrawer.cs",
+              "RelativeDocumentMoniker": "Assets\\Flooded_Grounds\\PostProcessing\\Editor\\PropertyDrawers\\MinDrawer.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\Flooded_Grounds\\PostProcessing\\Editor\\PropertyDrawers\\MinDrawer.cs",
+              "RelativeToolTip": "Assets\\Flooded_Grounds\\PostProcessing\\Editor\\PropertyDrawers\\MinDrawer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:29:58.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MotionBlurComponent.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\Flooded_Grounds\\PostProcessing\\Runtime\\Components\\MotionBlurComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Flooded_Grounds\\PostProcessing\\Runtime\\Components\\MotionBlurComponent.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\Flooded_Grounds\\PostProcessing\\Runtime\\Components\\MotionBlurComponent.cs",
+              "RelativeToolTip": "Assets\\Flooded_Grounds\\PostProcessing\\Runtime\\Components\\MotionBlurComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:29:56.097Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "State_Airborne.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\State_Airborne.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\State_Airborne.cs",
+              "DocumentIndex": 4,
+              "Title": "State_Climb_RB.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Climb_RB.cs",
+              "RelativeDocumentMoniker": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Climb_RB.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Climb_RB.cs",
+              "RelativeToolTip": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Climb_RB.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv4UAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T12:16:24.245Z"
+              "WhenOpened": "2025-10-16T03:39:29.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "State_Airborne_RB.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Airborne_RB.cs",
+              "RelativeDocumentMoniker": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Airborne_RB.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Airborne_RB.cs",
+              "RelativeToolTip": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Airborne_RB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:51:30.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterMotor.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\Player_Scripts\\CharacterMotor.cs",
+              "RelativeDocumentMoniker": "Assets\\4_Scripts\\Player_Scripts\\CharacterMotor.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\Player_Scripts\\CharacterMotor.cs",
+              "RelativeToolTip": "Assets\\4_Scripts\\Player_Scripts\\CharacterMotor.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAADwv20AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:42:40.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "State_Grounded_RB.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Grounded_RB.cs",
+              "RelativeDocumentMoniker": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Grounded_RB.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine_Scripts\\State_Grounded_RB.cs",
+              "RelativeToolTip": "Assets\\4_Scripts\\StateMachine_Scripts\\State_Grounded_RB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:41:58.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CharacterInput.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\Player_Scripts\\CharacterInput.cs",
+              "RelativeDocumentMoniker": "Assets\\4_Scripts\\Player_Scripts\\CharacterInput.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\TheCogofTime\\TheCogOfTime\\Assets\\4_Scripts\\Player_Scripts\\CharacterInput.cs",
+              "RelativeToolTip": "Assets\\4_Scripts\\Player_Scripts\\CharacterInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:34:18.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "State_Airborne.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:16:24.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "State_Grounded_RB.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Grounded_RB.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\State_Grounded_RB.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Grounded_RB.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Grounded_RB.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\State_Grounded_RB.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAADwvz0AAAABAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Grounded_RB.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:14:35.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "State_Airborne_RB.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne_RB.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\State_Airborne_RB.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne_RB.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne_RB.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\State_Airborne_RB.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\State_Airborne_RB.cs",
               "ViewState": "AgIAABAAAAAAAAAAAADgvyAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:14:08.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "CharacterMotor.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterMotor.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\CharacterMotor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterMotor.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterMotor.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\CharacterMotor.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterMotor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:12:45.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "CharacterInput.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterInput.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\CharacterInput.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterInput.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterInput.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\CharacterInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\CharacterInput.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T12:12:22.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T12:12:22.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\PlayerInput.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:01:28.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\PlayerMove.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMove.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T11:25:05.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "StateMachine.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\StateMachine.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\StateMachine.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\StateMachine.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:00:20.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "TirdPersonCameraMove.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\TirdPersonCameraMove.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\TirdPersonCameraMove.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\TirdPersonCameraMove.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\TirdPersonCameraMove.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\TirdPersonCameraMove.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\TirdPersonCameraMove.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T15:12:31.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PlayerMovementState.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs",
-              "RelativeDocumentMoniker": "Assets\\4_Scripts\\PlayerMovementState.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs",
-              "RelativeToolTip": "Assets\\4_Scripts\\PlayerMovementState.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\TheCogOfTime\\TheCogOfTime\\Assets\\4_Scripts\\PlayerMovementState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T11:31:30.544Z"

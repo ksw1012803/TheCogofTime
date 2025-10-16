@@ -4,13 +4,13 @@ Upload Model fbx and update plz
 
 ## Contents
 
-Stage 1 playerBoss & animations & weapon
+Stage 1 Main Character & Boss & animations & weapon
 
-Stage 2 playerBoss & animations & weapon
+Stage 2 Main Character & Boss & animations & weapon
 
-Stage 3 playerBoss & animation
+Stage 3 Main Character & Boss & animation
 
-basic monter & swarm monster
+Basic monter & Swarm monster
 
 ## Upload
 

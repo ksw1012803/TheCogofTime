@@ -12,6 +12,8 @@ Stage 3 Main Character & Boss & animations
 
 Basic monster & Swarm monster
 
+Energy Drinks
+
 ## Upload
 
 2025-10-01

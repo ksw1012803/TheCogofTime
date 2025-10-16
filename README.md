@@ -8,7 +8,7 @@ Stage 1 Main Character & Boss & animations & weapon
 
 Stage 2 Main Character & Boss & animations & weapon
 
-Stage 3 Main Character & Boss & animation
+Stage 3 Main Character & Boss & animations
 
 Basic monter & Swarm monster
 

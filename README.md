@@ -4,17 +4,15 @@ Upload Model fbx and update plz
 
 ## Contents
 
-Stage 1 Main Character & Boss & animations & weapon
+Stage 1 Main Character & Boss & animations & weapon & Cog clock
 
-Stage 2 Main Character & Boss & animations & weapon
+Stage 2 Main Character & Boss & animations & weapon & Cog clock
 
-Stage 3 Main Character & Boss & animations
+Stage 3 Main Character & Boss & animations & Cog clock
 
 Basic monster & Swarm monster
 
 Energy Drinks
-
-Cog clock
 
 ## Upload
 

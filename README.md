@@ -4,15 +4,15 @@ Upload Model fbx and update plz
 
 ## Contents
 
-Stage 1 Main Character & Boss & animations & weapon & Cog clock
+Stage 1 Main Character & Boss & animations & textures & weapon & Cog clock
 
 Stage 2 Main Character & Boss & animations & weapon & Cog clock
 
-Stage 3 Main Character & Boss & animations & Cog clock
+Stage 3 Main Character & Boss & animations & textures & Cog clock
 
-Basic monster & Swarm monster
+Basic monster & Swarm monster & animations & textures
 
-Energy Drinks
+Energy Drinks & textures
 
 ## Upload
 
@@ -20,5 +20,5 @@ Energy Drinks
 
 ## Latest update
 
-2025-10-16
+2025-10-27
 

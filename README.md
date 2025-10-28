@@ -6,7 +6,7 @@ Upload Model fbx and update plz
 
 Stage 1 Main Character & Boss & animations & textures & weapon & Cog clock
 
-Stage 2 Main Character & Boss & animations & weapon & Cog clock
+Stage 2 Main Character & Boss & animations & textures & weapon & Cog clock
 
 Stage 3 Main Character & Boss & animations & textures & Cog clock
 
@@ -20,5 +20,5 @@ Energy Drinks & textures
 
 ## Latest update
 
-2025-10-27
+2025-10-28
 
